@@ -1,0 +1,48 @@
+{
+  "name": "Ultimate Dark Professional",
+  "dataColors": [
+    "#3E9EED", "#00B8AA", "#FD625E", "#F2C80F", "#5F6B6D", "#8AD4EB", "#FE9666", "#A66999"
+  ],
+  "background": "#121212",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#3E9EED",
+  "textClasses": {
+    "callout": { "color": "#FFFFFF" },
+    "title": { "color": "#FFFFFF", "fontSize": 11, "fontFace": "Segoe UI Semibold" },
+    "label": { "color": "#A6A6A6", "fontSize": 9 },
+    "header": { "color": "#FFFFFF", "fontSize": 10, "fontFace": "Segoe UI Semibold" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#121212" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#121212" } }, "transparency": 0 }]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#1E1E1E" } }, "transparency": 0 }],
+        "border": [{ "show": false }],
+        "categoryAxis": [{
+          "gridlineShow": false,
+          "labelColor": { "solid": { "color": "#A6A6A6" } }
+        }],
+        "valueAxis": [{
+          "gridlineShow": false,
+          "labelColor": { "solid": { "color": "#A6A6A6" } }
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "background": { "solid": { "color": "#2A2A2A" } }
+        }],
+        "header": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } }
+        }]
+      }
+    }
+  }
+}
